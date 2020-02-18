@@ -9,6 +9,10 @@
 #import "ViewController.h"
 #import "MAStrategyModeController.h"
 
+#import "MVCViewController.h"
+#import "MVPViewController.h"
+#import "MVVMViewController.h"
+
 @interface ViewController ()<UITableViewDelegate, UITableViewDataSource>
 
 @property (nonatomic, strong)UITableView *tableView;
@@ -23,7 +27,7 @@
     // Do any additional setup after loading the view, typically from a nib.
     
     [self.view addSubview:self.tableView];
-    self.titleArr = @[@"策略模式",@"待定"];
+    self.titleArr = @[@"策略模式",@"MVC",@"MVP",@"MVVM",@"待定"];
 }
 
 #pragma mark - TableView Delegate
@@ -32,12 +36,21 @@
     if (indexPath.row == 0) {
         MAStrategyModeController *strategyCtr = [[MAStrategyModeController alloc] init];
         jumpVc = strategyCtr;
+    } else if (indexPath.row == 1) {
+        MVCViewController *mvcCtr = [[MVCViewController alloc] init];
+        jumpVc = mvcCtr;
+    } else if (indexPath.row == 2) {
+        MVPViewController *mvpCtr = [[MVPViewController alloc] init];
+        jumpVc = mvpCtr;
+    } else if (indexPath.row == 3) {
+        MVVMViewController *mvvmCtr = [[MVVMViewController alloc] init];
+        jumpVc = mvvmCtr;
     }
     [self.navigationController pushViewController:jumpVc animated:YES];
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
-    return 2;
+    return 5;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{

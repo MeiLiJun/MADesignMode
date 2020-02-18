@@ -1,16 +1,20 @@
 PODS:
+  - KVOController (1.2.0)
   - Masonry (1.1.0)
 
 DEPENDENCIES:
+  - KVOController (~> 1.2.0)
   - Masonry (~> 1.1.0)
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
+    - KVOController
     - Masonry
 
 SPEC CHECKSUMS:
+  KVOController: d72ace34afea42468329623b3379ab3cd1d286b6
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
 
-PODFILE CHECKSUM: 93c3507cba2fa36b5c9f945303c672ce85ee351c
+PODFILE CHECKSUM: 06f2710c1f1c2f5608206e37b4dd0e8d9a4dae10
 
 COCOAPODS: 1.5.0

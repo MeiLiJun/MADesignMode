@@ -8,6 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		5E1833D26CEE918E9572036D /* libPods-MADesignMode.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A2D3C3CD7DFCB3050E57E19D /* libPods-MADesignMode.a */; };
+		D643AB2D23F93A2B00799FFC /* MVCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D643AB2C23F93A2B00799FFC /* MVCViewController.m */; };
+		D643AB3023F93A3900799FFC /* MVPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D643AB2F23F93A3900799FFC /* MVPViewController.m */; };
+		D643AB3323F93A4600799FFC /* MVVMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D643AB3223F93A4600799FFC /* MVVMViewController.m */; };
+		D643AB3623F93A5300799FFC /* MVCView.m in Sources */ = {isa = PBXBuildFile; fileRef = D643AB3523F93A5300799FFC /* MVCView.m */; };
+		D643AB3923F93A5D00799FFC /* MVPView.m in Sources */ = {isa = PBXBuildFile; fileRef = D643AB3823F93A5D00799FFC /* MVPView.m */; };
+		D643AB3C23F93A6600799FFC /* MVVMView.m in Sources */ = {isa = PBXBuildFile; fileRef = D643AB3B23F93A6600799FFC /* MVVMView.m */; };
+		D643AB3F23F93A9600799FFC /* MVCModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D643AB3E23F93A9600799FFC /* MVCModel.m */; };
+		D643AB4223F93AA800799FFC /* MVPModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D643AB4123F93AA800799FFC /* MVPModel.m */; };
+		D643AB4523F93AB300799FFC /* MVVMModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D643AB4423F93AB300799FFC /* MVVMModel.m */; };
+		D643AB4823F93AD300799FFC /* MVPPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = D643AB4723F93AD300799FFC /* MVPPresenter.m */; };
+		D643AB4B23F93AE800799FFC /* MVVMViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D643AB4A23F93AE800799FFC /* MVVMViewModel.m */; };
+		D643AB4D23FBB38600799FFC /* 笔记.rtf in Resources */ = {isa = PBXBuildFile; fileRef = D643AB4C23FBB38600799FFC /* 笔记.rtf */; };
 		D64FC13923F27EC60089E9B6 /* MAStrategyModeController.m in Sources */ = {isa = PBXBuildFile; fileRef = D64FC13823F27EC60089E9B6 /* MAStrategyModeController.m */; };
 		D64FC13C23F284E50089E9B6 /* MACustomTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = D64FC13B23F284E50089E9B6 /* MACustomTextField.m */; };
 		D64FC13F23F2850A0089E9B6 /* MATextFieldValidate.m in Sources */ = {isa = PBXBuildFile; fileRef = D64FC13E23F2850A0089E9B6 /* MATextFieldValidate.m */; };
@@ -25,6 +37,29 @@
 		31CE032B96D46B677425EEA6 /* Pods-MADesignMode.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MADesignMode.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MADesignMode/Pods-MADesignMode.debug.xcconfig"; sourceTree = "<group>"; };
 		A2D3C3CD7DFCB3050E57E19D /* libPods-MADesignMode.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MADesignMode.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B978E06AC0491E5F704E359A /* Pods-MADesignMode.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MADesignMode.release.xcconfig"; path = "Pods/Target Support Files/Pods-MADesignMode/Pods-MADesignMode.release.xcconfig"; sourceTree = "<group>"; };
+		D643AB2B23F93A2B00799FFC /* MVCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MVCViewController.h; sourceTree = "<group>"; };
+		D643AB2C23F93A2B00799FFC /* MVCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MVCViewController.m; sourceTree = "<group>"; };
+		D643AB2E23F93A3900799FFC /* MVPViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MVPViewController.h; sourceTree = "<group>"; };
+		D643AB2F23F93A3900799FFC /* MVPViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MVPViewController.m; sourceTree = "<group>"; };
+		D643AB3123F93A4600799FFC /* MVVMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MVVMViewController.h; sourceTree = "<group>"; };
+		D643AB3223F93A4600799FFC /* MVVMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MVVMViewController.m; sourceTree = "<group>"; };
+		D643AB3423F93A5300799FFC /* MVCView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MVCView.h; sourceTree = "<group>"; };
+		D643AB3523F93A5300799FFC /* MVCView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MVCView.m; sourceTree = "<group>"; };
+		D643AB3723F93A5D00799FFC /* MVPView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MVPView.h; sourceTree = "<group>"; };
+		D643AB3823F93A5D00799FFC /* MVPView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MVPView.m; sourceTree = "<group>"; };
+		D643AB3A23F93A6600799FFC /* MVVMView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MVVMView.h; sourceTree = "<group>"; };
+		D643AB3B23F93A6600799FFC /* MVVMView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MVVMView.m; sourceTree = "<group>"; };
+		D643AB3D23F93A9600799FFC /* MVCModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MVCModel.h; sourceTree = "<group>"; };
+		D643AB3E23F93A9600799FFC /* MVCModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MVCModel.m; sourceTree = "<group>"; };
+		D643AB4023F93AA800799FFC /* MVPModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MVPModel.h; sourceTree = "<group>"; };
+		D643AB4123F93AA800799FFC /* MVPModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MVPModel.m; sourceTree = "<group>"; };
+		D643AB4323F93AB300799FFC /* MVVMModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MVVMModel.h; sourceTree = "<group>"; };
+		D643AB4423F93AB300799FFC /* MVVMModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MVVMModel.m; sourceTree = "<group>"; };
+		D643AB4623F93AD300799FFC /* MVPPresenter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MVPPresenter.h; sourceTree = "<group>"; };
+		D643AB4723F93AD300799FFC /* MVPPresenter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MVPPresenter.m; sourceTree = "<group>"; };
+		D643AB4923F93AE800799FFC /* MVVMViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MVVMViewModel.h; sourceTree = "<group>"; };
+		D643AB4A23F93AE800799FFC /* MVVMViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MVVMViewModel.m; sourceTree = "<group>"; };
+		D643AB4C23FBB38600799FFC /* 笔记.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = "笔记.rtf"; sourceTree = "<group>"; };
 		D64FC13723F27EC60089E9B6 /* MAStrategyModeController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAStrategyModeController.h; sourceTree = "<group>"; };
 		D64FC13823F27EC60089E9B6 /* MAStrategyModeController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MAStrategyModeController.m; sourceTree = "<group>"; };
 		D64FC13A23F284E50089E9B6 /* MACustomTextField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MACustomTextField.h; sourceTree = "<group>"; };
@@ -76,6 +111,49 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		D643AB2823F939BB00799FFC /* MVC */ = {
+			isa = PBXGroup;
+			children = (
+				D643AB2B23F93A2B00799FFC /* MVCViewController.h */,
+				D643AB2C23F93A2B00799FFC /* MVCViewController.m */,
+				D643AB3423F93A5300799FFC /* MVCView.h */,
+				D643AB3523F93A5300799FFC /* MVCView.m */,
+				D643AB3D23F93A9600799FFC /* MVCModel.h */,
+				D643AB3E23F93A9600799FFC /* MVCModel.m */,
+			);
+			path = MVC;
+			sourceTree = "<group>";
+		};
+		D643AB2923F939F300799FFC /* MVP */ = {
+			isa = PBXGroup;
+			children = (
+				D643AB2E23F93A3900799FFC /* MVPViewController.h */,
+				D643AB2F23F93A3900799FFC /* MVPViewController.m */,
+				D643AB3723F93A5D00799FFC /* MVPView.h */,
+				D643AB3823F93A5D00799FFC /* MVPView.m */,
+				D643AB4023F93AA800799FFC /* MVPModel.h */,
+				D643AB4123F93AA800799FFC /* MVPModel.m */,
+				D643AB4623F93AD300799FFC /* MVPPresenter.h */,
+				D643AB4723F93AD300799FFC /* MVPPresenter.m */,
+			);
+			path = MVP;
+			sourceTree = "<group>";
+		};
+		D643AB2A23F939F900799FFC /* MVVM */ = {
+			isa = PBXGroup;
+			children = (
+				D643AB3123F93A4600799FFC /* MVVMViewController.h */,
+				D643AB3223F93A4600799FFC /* MVVMViewController.m */,
+				D643AB3A23F93A6600799FFC /* MVVMView.h */,
+				D643AB3B23F93A6600799FFC /* MVVMView.m */,
+				D643AB4323F93AB300799FFC /* MVVMModel.h */,
+				D643AB4423F93AB300799FFC /* MVVMModel.m */,
+				D643AB4923F93AE800799FFC /* MVVMViewModel.h */,
+				D643AB4A23F93AE800799FFC /* MVVMViewModel.m */,
+			);
+			path = MVVM;
+			sourceTree = "<group>";
+		};
 		D6F149E523EAA38700C1A967 = {
 			isa = PBXGroup;
 			children = (
@@ -97,6 +175,9 @@
 		D6F149F023EAA38700C1A967 /* MADesignMode */ = {
 			isa = PBXGroup;
 			children = (
+				D643AB2A23F939F900799FFC /* MVVM */,
+				D643AB2923F939F300799FFC /* MVP */,
+				D643AB2823F939BB00799FFC /* MVC */,
 				D6F14A0723EAA5FF00C1A967 /* StrategyMode(策略模式) */,
 				D6F149F123EAA38700C1A967 /* AppDelegate.h */,
 				D6F149F223EAA38700C1A967 /* AppDelegate.m */,
@@ -107,6 +188,7 @@
 				D6F149FC23EAA38900C1A967 /* LaunchScreen.storyboard */,
 				D6F149FF23EAA38900C1A967 /* Info.plist */,
 				D6F14A0023EAA38900C1A967 /* main.m */,
+				D643AB4C23FBB38600799FFC /* 笔记.rtf */,
 			);
 			path = MADesignMode;
 			sourceTree = "<group>";
@@ -186,6 +268,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D643AB4D23FBB38600799FFC /* 笔记.rtf in Resources */,
 				D6F149FE23EAA38900C1A967 /* LaunchScreen.storyboard in Resources */,
 				D6F149FB23EAA38900C1A967 /* Assets.xcassets in Resources */,
 				D6F149F923EAA38700C1A967 /* Main.storyboard in Resources */,
@@ -220,13 +303,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D643AB4823F93AD300799FFC /* MVPPresenter.m in Sources */,
+				D643AB3023F93A3900799FFC /* MVPViewController.m in Sources */,
+				D643AB3623F93A5300799FFC /* MVCView.m in Sources */,
+				D643AB2D23F93A2B00799FFC /* MVCViewController.m in Sources */,
 				D64FC14523F287990089E9B6 /* NumberTextFieldValidate.m in Sources */,
 				D6F149F623EAA38700C1A967 /* ViewController.m in Sources */,
+				D643AB3323F93A4600799FFC /* MVVMViewController.m in Sources */,
+				D643AB3923F93A5D00799FFC /* MVPView.m in Sources */,
 				D64FC13F23F2850A0089E9B6 /* MATextFieldValidate.m in Sources */,
 				D6F14A0123EAA38900C1A967 /* main.m in Sources */,
+				D643AB4223F93AA800799FFC /* MVPModel.m in Sources */,
+				D643AB4523F93AB300799FFC /* MVVMModel.m in Sources */,
 				D6F149F323EAA38700C1A967 /* AppDelegate.m in Sources */,
 				D64FC14223F287890089E9B6 /* LetterTextFieldValidate.m in Sources */,
+				D643AB4B23F93AE800799FFC /* MVVMViewModel.m in Sources */,
 				D64FC13923F27EC60089E9B6 /* MAStrategyModeController.m in Sources */,
+				D643AB3F23F93A9600799FFC /* MVCModel.m in Sources */,
+				D643AB3C23F93A6600799FFC /* MVVMView.m in Sources */,
 				D64FC13C23F284E50089E9B6 /* MACustomTextField.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -373,7 +467,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F64J525NVK;
 				INFOPLIST_FILE = MADesignMode/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = oldMei.cn.MADesignMode;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -388,7 +485,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F64J525NVK;
 				INFOPLIST_FILE = MADesignMode/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = oldMei.cn.MADesignMode;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";

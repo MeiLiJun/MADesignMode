@@ -6,6 +6,10 @@ target 'MADesignMode' do
   # use_frameworks!
 
  pod 'Masonry', '~> 1.1.0'
+ 
+ pod 'KVOController', '~> 1.2.0'
+ 
+# pod 'AFNetworking', '~> 3.2.1'
 
   # Pods for MADesignMode
 
