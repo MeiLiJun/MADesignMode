@@ -8,6 +8,42 @@
 
 /* Begin PBXBuildFile section */
 		5E1833D26CEE918E9572036D /* libPods-MADesignMode.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A2D3C3CD7DFCB3050E57E19D /* libPods-MADesignMode.a */; };
+		D6201A0B23FD21AA00C7E340 /* MABridgeModeController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6201A0A23FD21AA00C7E340 /* MABridgeModeController.m */; };
+		D6201A1223FD23D300C7E340 /* XiaoMiRemote.m in Sources */ = {isa = PBXBuildFile; fileRef = D6201A1123FD23D300C7E340 /* XiaoMiRemote.m */; };
+		D6201A1523FD23E200C7E340 /* XiaoMiTV.m in Sources */ = {isa = PBXBuildFile; fileRef = D6201A1423FD23E200C7E340 /* XiaoMiTV.m */; };
+		D6201A1823FD23F200C7E340 /* AppleRemote.m in Sources */ = {isa = PBXBuildFile; fileRef = D6201A1723FD23F200C7E340 /* AppleRemote.m */; };
+		D6201A1B23FD23FE00C7E340 /* AppleTV.m in Sources */ = {isa = PBXBuildFile; fileRef = D6201A1A23FD23FE00C7E340 /* AppleTV.m */; };
+		D6201A1E23FD27BE00C7E340 /* MARemote.m in Sources */ = {isa = PBXBuildFile; fileRef = D6201A1D23FD27BE00C7E340 /* MARemote.m */; };
+		D6201A2123FD27D200C7E340 /* MASubRemote.m in Sources */ = {isa = PBXBuildFile; fileRef = D6201A2023FD27D200C7E340 /* MASubRemote.m */; };
+		D6201A2423FD27DF00C7E340 /* MATV.m in Sources */ = {isa = PBXBuildFile; fileRef = D6201A2323FD27DF00C7E340 /* MATV.m */; };
+		D6201A2723FE4C5100C7E340 /* MAXiaoMiTV.m in Sources */ = {isa = PBXBuildFile; fileRef = D6201A2623FE4C5100C7E340 /* MAXiaoMiTV.m */; };
+		D6201A2A23FE4C5D00C7E340 /* MAAppleTV.m in Sources */ = {isa = PBXBuildFile; fileRef = D6201A2923FE4C5D00C7E340 /* MAAppleTV.m */; };
+		D6201A2D23FE4F4400C7E340 /* MAFruits.m in Sources */ = {isa = PBXBuildFile; fileRef = D6201A2C23FE4F4400C7E340 /* MAFruits.m */; };
+		D6201A3023FE4F5300C7E340 /* MAApples.m in Sources */ = {isa = PBXBuildFile; fileRef = D6201A2F23FE4F5300C7E340 /* MAApples.m */; };
+		D6201A3323FE4F6800C7E340 /* MAOranges.m in Sources */ = {isa = PBXBuildFile; fileRef = D6201A3223FE4F6800C7E340 /* MAOranges.m */; };
+		D6201A3623FE4F7800C7E340 /* MABananas.m in Sources */ = {isa = PBXBuildFile; fileRef = D6201A3523FE4F7800C7E340 /* MABananas.m */; };
+		D6201A3923FE4F9E00C7E340 /* MAFruitsFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = D6201A3823FE4F9E00C7E340 /* MAFruitsFactory.m */; };
+		D6201A3C23FE4FB700C7E340 /* MASimpleFactoryController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6201A3B23FE4FB700C7E340 /* MASimpleFactoryController.m */; };
+		D6201A4123FE57A300C7E340 /* tupian.png in Resources */ = {isa = PBXBuildFile; fileRef = D6201A3F23FE57A300C7E340 /* tupian.png */; };
+		D6201A4223FE57A300C7E340 /* tupian2.png in Resources */ = {isa = PBXBuildFile; fileRef = D6201A4023FE57A300C7E340 /* tupian2.png */; };
+		D6201A4723FE58BB00C7E340 /* MAFactoryController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6201A4623FE58BB00C7E340 /* MAFactoryController.m */; };
+		D6201A4A23FE599000C7E340 /* MAColorView.m in Sources */ = {isa = PBXBuildFile; fileRef = D6201A4923FE599000C7E340 /* MAColorView.m */; };
+		D6201A4D23FE59D900C7E340 /* MAColorViewGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = D6201A4C23FE59D900C7E340 /* MAColorViewGenerator.m */; };
+		D6201A5023FE5A6D00C7E340 /* MARedView.m in Sources */ = {isa = PBXBuildFile; fileRef = D6201A4F23FE5A6D00C7E340 /* MARedView.m */; };
+		D6201A5323FE5A8100C7E340 /* MABlueView.m in Sources */ = {isa = PBXBuildFile; fileRef = D6201A5223FE5A8100C7E340 /* MABlueView.m */; };
+		D6201A5623FE5BC300C7E340 /* MARedViewGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = D6201A5523FE5BC300C7E340 /* MARedViewGenerator.m */; };
+		D6201A5923FE5BD400C7E340 /* MABlueViewGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = D6201A5823FE5BD400C7E340 /* MABlueViewGenerator.m */; };
+		D6201A5C23FE5F6600C7E340 /* MAColorViewFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = D6201A5B23FE5F6600C7E340 /* MAColorViewFactory.m */; };
+		D6201A5F23FE5F8B00C7E340 /* MARedViewFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = D6201A5E23FE5F8B00C7E340 /* MARedViewFactory.m */; };
+		D6201A6223FE5F9900C7E340 /* MABlueViewFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = D6201A6123FE5F9900C7E340 /* MABlueViewFactory.m */; };
+		D6201A6723FE605400C7E340 /* RedSubView.m in Sources */ = {isa = PBXBuildFile; fileRef = D6201A6623FE605400C7E340 /* RedSubView.m */; };
+		D6201A6A23FE605E00C7E340 /* BlueSubView.m in Sources */ = {isa = PBXBuildFile; fileRef = D6201A6923FE605E00C7E340 /* BlueSubView.m */; };
+		D6201A6D23FE607E00C7E340 /* RedButton.m in Sources */ = {isa = PBXBuildFile; fileRef = D6201A6C23FE607E00C7E340 /* RedButton.m */; };
+		D6201A7023FE608E00C7E340 /* BlueButton.m in Sources */ = {isa = PBXBuildFile; fileRef = D6201A6F23FE608E00C7E340 /* BlueButton.m */; };
+		D6201A7323FE620000C7E340 /* MAAbstractFactoryController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6201A7223FE620000C7E340 /* MAAbstractFactoryController.m */; };
+		D6201A7723FE640800C7E340 /* MAFlyWeightController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6201A7623FE640800C7E340 /* MAFlyWeightController.m */; };
+		D6201A7A23FE663600C7E340 /* MAFlowers.m in Sources */ = {isa = PBXBuildFile; fileRef = D6201A7923FE663600C7E340 /* MAFlowers.m */; };
+		D6201A7D23FE664F00C7E340 /* MAFlowerFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = D6201A7C23FE664F00C7E340 /* MAFlowerFactory.m */; };
 		D643AB2D23F93A2B00799FFC /* MVCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D643AB2C23F93A2B00799FFC /* MVCViewController.m */; };
 		D643AB3023F93A3900799FFC /* MVPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D643AB2F23F93A3900799FFC /* MVPViewController.m */; };
 		D643AB3323F93A4600799FFC /* MVVMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D643AB3223F93A4600799FFC /* MVVMViewController.m */; };
@@ -19,7 +55,7 @@
 		D643AB4523F93AB300799FFC /* MVVMModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D643AB4423F93AB300799FFC /* MVVMModel.m */; };
 		D643AB4823F93AD300799FFC /* MVPPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = D643AB4723F93AD300799FFC /* MVPPresenter.m */; };
 		D643AB4B23F93AE800799FFC /* MVVMViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D643AB4A23F93AE800799FFC /* MVVMViewModel.m */; };
-		D643AB4D23FBB38600799FFC /* 笔记.rtf in Resources */ = {isa = PBXBuildFile; fileRef = D643AB4C23FBB38600799FFC /* 笔记.rtf */; };
+		D643AB4D23FBB38600799FFC /* 笔记.rtfd in Resources */ = {isa = PBXBuildFile; fileRef = D643AB4C23FBB38600799FFC /* 笔记.rtfd */; };
 		D64FC13923F27EC60089E9B6 /* MAStrategyModeController.m in Sources */ = {isa = PBXBuildFile; fileRef = D64FC13823F27EC60089E9B6 /* MAStrategyModeController.m */; };
 		D64FC13C23F284E50089E9B6 /* MACustomTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = D64FC13B23F284E50089E9B6 /* MACustomTextField.m */; };
 		D64FC13F23F2850A0089E9B6 /* MATextFieldValidate.m in Sources */ = {isa = PBXBuildFile; fileRef = D64FC13E23F2850A0089E9B6 /* MATextFieldValidate.m */; };
@@ -37,6 +73,76 @@
 		31CE032B96D46B677425EEA6 /* Pods-MADesignMode.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MADesignMode.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MADesignMode/Pods-MADesignMode.debug.xcconfig"; sourceTree = "<group>"; };
 		A2D3C3CD7DFCB3050E57E19D /* libPods-MADesignMode.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MADesignMode.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B978E06AC0491E5F704E359A /* Pods-MADesignMode.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MADesignMode.release.xcconfig"; path = "Pods/Target Support Files/Pods-MADesignMode/Pods-MADesignMode.release.xcconfig"; sourceTree = "<group>"; };
+		D6201A0923FD21AA00C7E340 /* MABridgeModeController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MABridgeModeController.h; sourceTree = "<group>"; };
+		D6201A0A23FD21AA00C7E340 /* MABridgeModeController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MABridgeModeController.m; sourceTree = "<group>"; };
+		D6201A1023FD23D300C7E340 /* XiaoMiRemote.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XiaoMiRemote.h; sourceTree = "<group>"; };
+		D6201A1123FD23D300C7E340 /* XiaoMiRemote.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XiaoMiRemote.m; sourceTree = "<group>"; };
+		D6201A1323FD23E200C7E340 /* XiaoMiTV.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XiaoMiTV.h; sourceTree = "<group>"; };
+		D6201A1423FD23E200C7E340 /* XiaoMiTV.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XiaoMiTV.m; sourceTree = "<group>"; };
+		D6201A1623FD23F200C7E340 /* AppleRemote.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppleRemote.h; sourceTree = "<group>"; };
+		D6201A1723FD23F200C7E340 /* AppleRemote.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppleRemote.m; sourceTree = "<group>"; };
+		D6201A1923FD23FE00C7E340 /* AppleTV.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppleTV.h; sourceTree = "<group>"; };
+		D6201A1A23FD23FE00C7E340 /* AppleTV.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppleTV.m; sourceTree = "<group>"; };
+		D6201A1C23FD27BE00C7E340 /* MARemote.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MARemote.h; sourceTree = "<group>"; };
+		D6201A1D23FD27BE00C7E340 /* MARemote.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MARemote.m; sourceTree = "<group>"; };
+		D6201A1F23FD27D200C7E340 /* MASubRemote.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MASubRemote.h; sourceTree = "<group>"; };
+		D6201A2023FD27D200C7E340 /* MASubRemote.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MASubRemote.m; sourceTree = "<group>"; };
+		D6201A2223FD27DF00C7E340 /* MATV.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MATV.h; sourceTree = "<group>"; };
+		D6201A2323FD27DF00C7E340 /* MATV.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MATV.m; sourceTree = "<group>"; };
+		D6201A2523FE4C5100C7E340 /* MAXiaoMiTV.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAXiaoMiTV.h; sourceTree = "<group>"; };
+		D6201A2623FE4C5100C7E340 /* MAXiaoMiTV.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MAXiaoMiTV.m; sourceTree = "<group>"; };
+		D6201A2823FE4C5D00C7E340 /* MAAppleTV.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAAppleTV.h; sourceTree = "<group>"; };
+		D6201A2923FE4C5D00C7E340 /* MAAppleTV.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MAAppleTV.m; sourceTree = "<group>"; };
+		D6201A2B23FE4F4400C7E340 /* MAFruits.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAFruits.h; sourceTree = "<group>"; };
+		D6201A2C23FE4F4400C7E340 /* MAFruits.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MAFruits.m; sourceTree = "<group>"; };
+		D6201A2E23FE4F5300C7E340 /* MAApples.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAApples.h; sourceTree = "<group>"; };
+		D6201A2F23FE4F5300C7E340 /* MAApples.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MAApples.m; sourceTree = "<group>"; };
+		D6201A3123FE4F6800C7E340 /* MAOranges.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAOranges.h; sourceTree = "<group>"; };
+		D6201A3223FE4F6800C7E340 /* MAOranges.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MAOranges.m; sourceTree = "<group>"; };
+		D6201A3423FE4F7800C7E340 /* MABananas.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MABananas.h; sourceTree = "<group>"; };
+		D6201A3523FE4F7800C7E340 /* MABananas.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MABananas.m; sourceTree = "<group>"; };
+		D6201A3723FE4F9E00C7E340 /* MAFruitsFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAFruitsFactory.h; sourceTree = "<group>"; };
+		D6201A3823FE4F9E00C7E340 /* MAFruitsFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MAFruitsFactory.m; sourceTree = "<group>"; };
+		D6201A3A23FE4FB700C7E340 /* MASimpleFactoryController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MASimpleFactoryController.h; sourceTree = "<group>"; };
+		D6201A3B23FE4FB700C7E340 /* MASimpleFactoryController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MASimpleFactoryController.m; sourceTree = "<group>"; };
+		D6201A3F23FE57A300C7E340 /* tupian.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tupian.png; sourceTree = "<group>"; };
+		D6201A4023FE57A300C7E340 /* tupian2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tupian2.png; sourceTree = "<group>"; };
+		D6201A4523FE58BB00C7E340 /* MAFactoryController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAFactoryController.h; sourceTree = "<group>"; };
+		D6201A4623FE58BB00C7E340 /* MAFactoryController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MAFactoryController.m; sourceTree = "<group>"; };
+		D6201A4823FE599000C7E340 /* MAColorView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAColorView.h; sourceTree = "<group>"; };
+		D6201A4923FE599000C7E340 /* MAColorView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MAColorView.m; sourceTree = "<group>"; };
+		D6201A4B23FE59D900C7E340 /* MAColorViewGenerator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAColorViewGenerator.h; sourceTree = "<group>"; };
+		D6201A4C23FE59D900C7E340 /* MAColorViewGenerator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MAColorViewGenerator.m; sourceTree = "<group>"; };
+		D6201A4E23FE5A6D00C7E340 /* MARedView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MARedView.h; sourceTree = "<group>"; };
+		D6201A4F23FE5A6D00C7E340 /* MARedView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MARedView.m; sourceTree = "<group>"; };
+		D6201A5123FE5A8100C7E340 /* MABlueView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MABlueView.h; sourceTree = "<group>"; };
+		D6201A5223FE5A8100C7E340 /* MABlueView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MABlueView.m; sourceTree = "<group>"; };
+		D6201A5423FE5BC300C7E340 /* MARedViewGenerator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MARedViewGenerator.h; sourceTree = "<group>"; };
+		D6201A5523FE5BC300C7E340 /* MARedViewGenerator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MARedViewGenerator.m; sourceTree = "<group>"; };
+		D6201A5723FE5BD400C7E340 /* MABlueViewGenerator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MABlueViewGenerator.h; sourceTree = "<group>"; };
+		D6201A5823FE5BD400C7E340 /* MABlueViewGenerator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MABlueViewGenerator.m; sourceTree = "<group>"; };
+		D6201A5A23FE5F6600C7E340 /* MAColorViewFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAColorViewFactory.h; sourceTree = "<group>"; };
+		D6201A5B23FE5F6600C7E340 /* MAColorViewFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MAColorViewFactory.m; sourceTree = "<group>"; };
+		D6201A5D23FE5F8B00C7E340 /* MARedViewFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MARedViewFactory.h; sourceTree = "<group>"; };
+		D6201A5E23FE5F8B00C7E340 /* MARedViewFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MARedViewFactory.m; sourceTree = "<group>"; };
+		D6201A6023FE5F9900C7E340 /* MABlueViewFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MABlueViewFactory.h; sourceTree = "<group>"; };
+		D6201A6123FE5F9900C7E340 /* MABlueViewFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MABlueViewFactory.m; sourceTree = "<group>"; };
+		D6201A6523FE605400C7E340 /* RedSubView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RedSubView.h; sourceTree = "<group>"; };
+		D6201A6623FE605400C7E340 /* RedSubView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RedSubView.m; sourceTree = "<group>"; };
+		D6201A6823FE605E00C7E340 /* BlueSubView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BlueSubView.h; sourceTree = "<group>"; };
+		D6201A6923FE605E00C7E340 /* BlueSubView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlueSubView.m; sourceTree = "<group>"; };
+		D6201A6B23FE607E00C7E340 /* RedButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RedButton.h; sourceTree = "<group>"; };
+		D6201A6C23FE607E00C7E340 /* RedButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RedButton.m; sourceTree = "<group>"; };
+		D6201A6E23FE608E00C7E340 /* BlueButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BlueButton.h; sourceTree = "<group>"; };
+		D6201A6F23FE608E00C7E340 /* BlueButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlueButton.m; sourceTree = "<group>"; };
+		D6201A7123FE620000C7E340 /* MAAbstractFactoryController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAAbstractFactoryController.h; sourceTree = "<group>"; };
+		D6201A7223FE620000C7E340 /* MAAbstractFactoryController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MAAbstractFactoryController.m; sourceTree = "<group>"; };
+		D6201A7523FE640800C7E340 /* MAFlyWeightController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAFlyWeightController.h; sourceTree = "<group>"; };
+		D6201A7623FE640800C7E340 /* MAFlyWeightController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MAFlyWeightController.m; sourceTree = "<group>"; };
+		D6201A7823FE663600C7E340 /* MAFlowers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAFlowers.h; sourceTree = "<group>"; };
+		D6201A7923FE663600C7E340 /* MAFlowers.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MAFlowers.m; sourceTree = "<group>"; };
+		D6201A7B23FE664F00C7E340 /* MAFlowerFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAFlowerFactory.h; sourceTree = "<group>"; };
+		D6201A7C23FE664F00C7E340 /* MAFlowerFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MAFlowerFactory.m; sourceTree = "<group>"; };
 		D643AB2B23F93A2B00799FFC /* MVCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MVCViewController.h; sourceTree = "<group>"; };
 		D643AB2C23F93A2B00799FFC /* MVCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MVCViewController.m; sourceTree = "<group>"; };
 		D643AB2E23F93A3900799FFC /* MVPViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MVPViewController.h; sourceTree = "<group>"; };
@@ -59,7 +165,7 @@
 		D643AB4723F93AD300799FFC /* MVPPresenter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MVPPresenter.m; sourceTree = "<group>"; };
 		D643AB4923F93AE800799FFC /* MVVMViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MVVMViewModel.h; sourceTree = "<group>"; };
 		D643AB4A23F93AE800799FFC /* MVVMViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MVVMViewModel.m; sourceTree = "<group>"; };
-		D643AB4C23FBB38600799FFC /* 笔记.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = "笔记.rtf"; sourceTree = "<group>"; };
+		D643AB4C23FBB38600799FFC /* 笔记.rtfd */ = {isa = PBXFileReference; lastKnownFileType = wrapper.rtfd; path = "笔记.rtfd"; sourceTree = "<group>"; };
 		D64FC13723F27EC60089E9B6 /* MAStrategyModeController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAStrategyModeController.h; sourceTree = "<group>"; };
 		D64FC13823F27EC60089E9B6 /* MAStrategyModeController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MAStrategyModeController.m; sourceTree = "<group>"; };
 		D64FC13A23F284E50089E9B6 /* MACustomTextField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MACustomTextField.h; sourceTree = "<group>"; };
@@ -109,6 +215,169 @@
 				A2D3C3CD7DFCB3050E57E19D /* libPods-MADesignMode.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D6201A0823FD20F800C7E340 /* BridgeMode(桥接模式) */ = {
+			isa = PBXGroup;
+			children = (
+				D6201A0F23FD233D00C7E340 /* 桥接方式 */,
+				D6201A0E23FD232700C7E340 /* 普通方式 */,
+				D6201A0923FD21AA00C7E340 /* MABridgeModeController.h */,
+				D6201A0A23FD21AA00C7E340 /* MABridgeModeController.m */,
+			);
+			path = "BridgeMode(桥接模式)";
+			sourceTree = "<group>";
+		};
+		D6201A0C23FD21B000C7E340 /* FactoryMode(工厂模式) */ = {
+			isa = PBXGroup;
+			children = (
+				D6201A0D23FD21D600C7E340 /* 简单工厂 */,
+				D6201A3D23FE533C00C7E340 /* 工厂方法 */,
+				D6201A3E23FE534900C7E340 /* 抽象工厂 */,
+			);
+			path = "FactoryMode(工厂模式)";
+			sourceTree = "<group>";
+		};
+		D6201A0D23FD21D600C7E340 /* 简单工厂 */ = {
+			isa = PBXGroup;
+			children = (
+				D6201A3A23FE4FB700C7E340 /* MASimpleFactoryController.h */,
+				D6201A3B23FE4FB700C7E340 /* MASimpleFactoryController.m */,
+				D6201A3723FE4F9E00C7E340 /* MAFruitsFactory.h */,
+				D6201A3823FE4F9E00C7E340 /* MAFruitsFactory.m */,
+				D6201A2B23FE4F4400C7E340 /* MAFruits.h */,
+				D6201A2C23FE4F4400C7E340 /* MAFruits.m */,
+				D6201A2E23FE4F5300C7E340 /* MAApples.h */,
+				D6201A2F23FE4F5300C7E340 /* MAApples.m */,
+				D6201A3123FE4F6800C7E340 /* MAOranges.h */,
+				D6201A3223FE4F6800C7E340 /* MAOranges.m */,
+				D6201A3423FE4F7800C7E340 /* MABananas.h */,
+				D6201A3523FE4F7800C7E340 /* MABananas.m */,
+			);
+			path = "简单工厂";
+			sourceTree = "<group>";
+		};
+		D6201A0E23FD232700C7E340 /* 普通方式 */ = {
+			isa = PBXGroup;
+			children = (
+				D6201A1023FD23D300C7E340 /* XiaoMiRemote.h */,
+				D6201A1123FD23D300C7E340 /* XiaoMiRemote.m */,
+				D6201A1323FD23E200C7E340 /* XiaoMiTV.h */,
+				D6201A1423FD23E200C7E340 /* XiaoMiTV.m */,
+				D6201A1623FD23F200C7E340 /* AppleRemote.h */,
+				D6201A1723FD23F200C7E340 /* AppleRemote.m */,
+				D6201A1923FD23FE00C7E340 /* AppleTV.h */,
+				D6201A1A23FD23FE00C7E340 /* AppleTV.m */,
+			);
+			path = "普通方式";
+			sourceTree = "<group>";
+		};
+		D6201A0F23FD233D00C7E340 /* 桥接方式 */ = {
+			isa = PBXGroup;
+			children = (
+				D6201A1C23FD27BE00C7E340 /* MARemote.h */,
+				D6201A1D23FD27BE00C7E340 /* MARemote.m */,
+				D6201A1F23FD27D200C7E340 /* MASubRemote.h */,
+				D6201A2023FD27D200C7E340 /* MASubRemote.m */,
+				D6201A2223FD27DF00C7E340 /* MATV.h */,
+				D6201A2323FD27DF00C7E340 /* MATV.m */,
+				D6201A2523FE4C5100C7E340 /* MAXiaoMiTV.h */,
+				D6201A2623FE4C5100C7E340 /* MAXiaoMiTV.m */,
+				D6201A2823FE4C5D00C7E340 /* MAAppleTV.h */,
+				D6201A2923FE4C5D00C7E340 /* MAAppleTV.m */,
+			);
+			path = "桥接方式";
+			sourceTree = "<group>";
+		};
+		D6201A3D23FE533C00C7E340 /* 工厂方法 */ = {
+			isa = PBXGroup;
+			children = (
+				D6201A4523FE58BB00C7E340 /* MAFactoryController.h */,
+				D6201A4623FE58BB00C7E340 /* MAFactoryController.m */,
+				D6201A4423FE589600C7E340 /* Generator */,
+				D6201A4323FE588900C7E340 /* ColorView */,
+				D6201A3F23FE57A300C7E340 /* tupian.png */,
+				D6201A4023FE57A300C7E340 /* tupian2.png */,
+			);
+			path = "工厂方法";
+			sourceTree = "<group>";
+		};
+		D6201A3E23FE534900C7E340 /* 抽象工厂 */ = {
+			isa = PBXGroup;
+			children = (
+				D6201A7123FE620000C7E340 /* MAAbstractFactoryController.h */,
+				D6201A7223FE620000C7E340 /* MAAbstractFactoryController.m */,
+				D6201A6423FE5FB600C7E340 /* ColorBtn */,
+				D6201A6323FE5FA100C7E340 /* ColorView */,
+				D6201A5A23FE5F6600C7E340 /* MAColorViewFactory.h */,
+				D6201A5B23FE5F6600C7E340 /* MAColorViewFactory.m */,
+				D6201A5D23FE5F8B00C7E340 /* MARedViewFactory.h */,
+				D6201A5E23FE5F8B00C7E340 /* MARedViewFactory.m */,
+				D6201A6023FE5F9900C7E340 /* MABlueViewFactory.h */,
+				D6201A6123FE5F9900C7E340 /* MABlueViewFactory.m */,
+			);
+			path = "抽象工厂";
+			sourceTree = "<group>";
+		};
+		D6201A4323FE588900C7E340 /* ColorView */ = {
+			isa = PBXGroup;
+			children = (
+				D6201A4823FE599000C7E340 /* MAColorView.h */,
+				D6201A4923FE599000C7E340 /* MAColorView.m */,
+				D6201A4E23FE5A6D00C7E340 /* MARedView.h */,
+				D6201A4F23FE5A6D00C7E340 /* MARedView.m */,
+				D6201A5123FE5A8100C7E340 /* MABlueView.h */,
+				D6201A5223FE5A8100C7E340 /* MABlueView.m */,
+			);
+			path = ColorView;
+			sourceTree = "<group>";
+		};
+		D6201A4423FE589600C7E340 /* Generator */ = {
+			isa = PBXGroup;
+			children = (
+				D6201A4B23FE59D900C7E340 /* MAColorViewGenerator.h */,
+				D6201A4C23FE59D900C7E340 /* MAColorViewGenerator.m */,
+				D6201A5423FE5BC300C7E340 /* MARedViewGenerator.h */,
+				D6201A5523FE5BC300C7E340 /* MARedViewGenerator.m */,
+				D6201A5723FE5BD400C7E340 /* MABlueViewGenerator.h */,
+				D6201A5823FE5BD400C7E340 /* MABlueViewGenerator.m */,
+			);
+			path = Generator;
+			sourceTree = "<group>";
+		};
+		D6201A6323FE5FA100C7E340 /* ColorView */ = {
+			isa = PBXGroup;
+			children = (
+				D6201A6523FE605400C7E340 /* RedSubView.h */,
+				D6201A6623FE605400C7E340 /* RedSubView.m */,
+				D6201A6823FE605E00C7E340 /* BlueSubView.h */,
+				D6201A6923FE605E00C7E340 /* BlueSubView.m */,
+			);
+			path = ColorView;
+			sourceTree = "<group>";
+		};
+		D6201A6423FE5FB600C7E340 /* ColorBtn */ = {
+			isa = PBXGroup;
+			children = (
+				D6201A6B23FE607E00C7E340 /* RedButton.h */,
+				D6201A6C23FE607E00C7E340 /* RedButton.m */,
+				D6201A6E23FE608E00C7E340 /* BlueButton.h */,
+				D6201A6F23FE608E00C7E340 /* BlueButton.m */,
+			);
+			path = ColorBtn;
+			sourceTree = "<group>";
+		};
+		D6201A7423FE63DE00C7E340 /* FlyWeightMode(享元模式) */ = {
+			isa = PBXGroup;
+			children = (
+				D6201A7523FE640800C7E340 /* MAFlyWeightController.h */,
+				D6201A7623FE640800C7E340 /* MAFlyWeightController.m */,
+				D6201A7B23FE664F00C7E340 /* MAFlowerFactory.h */,
+				D6201A7C23FE664F00C7E340 /* MAFlowerFactory.m */,
+				D6201A7823FE663600C7E340 /* MAFlowers.h */,
+				D6201A7923FE663600C7E340 /* MAFlowers.m */,
+			);
+			path = "FlyWeightMode(享元模式)";
 			sourceTree = "<group>";
 		};
 		D643AB2823F939BB00799FFC /* MVC */ = {
@@ -175,6 +444,9 @@
 		D6F149F023EAA38700C1A967 /* MADesignMode */ = {
 			isa = PBXGroup;
 			children = (
+				D6201A7423FE63DE00C7E340 /* FlyWeightMode(享元模式) */,
+				D6201A0C23FD21B000C7E340 /* FactoryMode(工厂模式) */,
+				D6201A0823FD20F800C7E340 /* BridgeMode(桥接模式) */,
 				D643AB2A23F939F900799FFC /* MVVM */,
 				D643AB2923F939F300799FFC /* MVP */,
 				D643AB2823F939BB00799FFC /* MVC */,
@@ -188,7 +460,7 @@
 				D6F149FC23EAA38900C1A967 /* LaunchScreen.storyboard */,
 				D6F149FF23EAA38900C1A967 /* Info.plist */,
 				D6F14A0023EAA38900C1A967 /* main.m */,
-				D643AB4C23FBB38600799FFC /* 笔记.rtf */,
+				D643AB4C23FBB38600799FFC /* 笔记.rtfd */,
 			);
 			path = MADesignMode;
 			sourceTree = "<group>";
@@ -268,10 +540,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D643AB4D23FBB38600799FFC /* 笔记.rtf in Resources */,
+				D643AB4D23FBB38600799FFC /* 笔记.rtfd in Resources */,
 				D6F149FE23EAA38900C1A967 /* LaunchScreen.storyboard in Resources */,
+				D6201A4123FE57A300C7E340 /* tupian.png in Resources */,
 				D6F149FB23EAA38900C1A967 /* Assets.xcassets in Resources */,
 				D6F149F923EAA38700C1A967 /* Main.storyboard in Resources */,
+				D6201A4223FE57A300C7E340 /* tupian2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -305,22 +579,56 @@
 			files = (
 				D643AB4823F93AD300799FFC /* MVPPresenter.m in Sources */,
 				D643AB3023F93A3900799FFC /* MVPViewController.m in Sources */,
+				D6201A6A23FE605E00C7E340 /* BlueSubView.m in Sources */,
+				D6201A2123FD27D200C7E340 /* MASubRemote.m in Sources */,
+				D6201A3323FE4F6800C7E340 /* MAOranges.m in Sources */,
+				D6201A3023FE4F5300C7E340 /* MAApples.m in Sources */,
 				D643AB3623F93A5300799FFC /* MVCView.m in Sources */,
+				D6201A5023FE5A6D00C7E340 /* MARedView.m in Sources */,
 				D643AB2D23F93A2B00799FFC /* MVCViewController.m in Sources */,
 				D64FC14523F287990089E9B6 /* NumberTextFieldValidate.m in Sources */,
+				D6201A4D23FE59D900C7E340 /* MAColorViewGenerator.m in Sources */,
 				D6F149F623EAA38700C1A967 /* ViewController.m in Sources */,
+				D6201A4A23FE599000C7E340 /* MAColorView.m in Sources */,
 				D643AB3323F93A4600799FFC /* MVVMViewController.m in Sources */,
 				D643AB3923F93A5D00799FFC /* MVPView.m in Sources */,
+				D6201A1B23FD23FE00C7E340 /* AppleTV.m in Sources */,
+				D6201A2D23FE4F4400C7E340 /* MAFruits.m in Sources */,
+				D6201A5323FE5A8100C7E340 /* MABlueView.m in Sources */,
+				D6201A1523FD23E200C7E340 /* XiaoMiTV.m in Sources */,
 				D64FC13F23F2850A0089E9B6 /* MATextFieldValidate.m in Sources */,
 				D6F14A0123EAA38900C1A967 /* main.m in Sources */,
+				D6201A2423FD27DF00C7E340 /* MATV.m in Sources */,
+				D6201A5F23FE5F8B00C7E340 /* MARedViewFactory.m in Sources */,
 				D643AB4223F93AA800799FFC /* MVPModel.m in Sources */,
+				D6201A4723FE58BB00C7E340 /* MAFactoryController.m in Sources */,
+				D6201A2A23FE4C5D00C7E340 /* MAAppleTV.m in Sources */,
+				D6201A6723FE605400C7E340 /* RedSubView.m in Sources */,
+				D6201A7D23FE664F00C7E340 /* MAFlowerFactory.m in Sources */,
+				D6201A5623FE5BC300C7E340 /* MARedViewGenerator.m in Sources */,
 				D643AB4523F93AB300799FFC /* MVVMModel.m in Sources */,
+				D6201A6D23FE607E00C7E340 /* RedButton.m in Sources */,
 				D6F149F323EAA38700C1A967 /* AppDelegate.m in Sources */,
 				D64FC14223F287890089E9B6 /* LetterTextFieldValidate.m in Sources */,
+				D6201A2723FE4C5100C7E340 /* MAXiaoMiTV.m in Sources */,
+				D6201A6223FE5F9900C7E340 /* MABlueViewFactory.m in Sources */,
 				D643AB4B23F93AE800799FFC /* MVVMViewModel.m in Sources */,
+				D6201A0B23FD21AA00C7E340 /* MABridgeModeController.m in Sources */,
+				D6201A7323FE620000C7E340 /* MAAbstractFactoryController.m in Sources */,
 				D64FC13923F27EC60089E9B6 /* MAStrategyModeController.m in Sources */,
+				D6201A7A23FE663600C7E340 /* MAFlowers.m in Sources */,
+				D6201A7723FE640800C7E340 /* MAFlyWeightController.m in Sources */,
+				D6201A5923FE5BD400C7E340 /* MABlueViewGenerator.m in Sources */,
+				D6201A5C23FE5F6600C7E340 /* MAColorViewFactory.m in Sources */,
+				D6201A3623FE4F7800C7E340 /* MABananas.m in Sources */,
+				D6201A1223FD23D300C7E340 /* XiaoMiRemote.m in Sources */,
+				D6201A1E23FD27BE00C7E340 /* MARemote.m in Sources */,
+				D6201A7023FE608E00C7E340 /* BlueButton.m in Sources */,
+				D6201A1823FD23F200C7E340 /* AppleRemote.m in Sources */,
 				D643AB3F23F93A9600799FFC /* MVCModel.m in Sources */,
+				D6201A3923FE4F9E00C7E340 /* MAFruitsFactory.m in Sources */,
 				D643AB3C23F93A6600799FFC /* MVVMView.m in Sources */,
+				D6201A3C23FE4FB700C7E340 /* MASimpleFactoryController.m in Sources */,
 				D64FC13C23F284E50089E9B6 /* MACustomTextField.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

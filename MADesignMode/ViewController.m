@@ -12,6 +12,11 @@
 #import "MVCViewController.h"
 #import "MVPViewController.h"
 #import "MVVMViewController.h"
+#import "MABridgeModeController.h"
+#import "MASimpleFactoryController.h"
+#import "MAFactoryController.h"
+#import "MAAbstractFactoryController.h"
+#import "MAFlyWeightController.h"
 
 @interface ViewController ()<UITableViewDelegate, UITableViewDataSource>
 
@@ -27,7 +32,7 @@
     // Do any additional setup after loading the view, typically from a nib.
     
     [self.view addSubview:self.tableView];
-    self.titleArr = @[@"策略模式",@"MVC",@"MVP",@"MVVM",@"待定"];
+    self.titleArr = @[@"策略模式",@"MVC",@"MVP",@"MVVM",@"桥接模式", @"简单工厂", @"工厂方法",@"抽象工厂", @"享元模式", @"待定"];
 }
 
 #pragma mark - TableView Delegate
@@ -45,12 +50,27 @@
     } else if (indexPath.row == 3) {
         MVVMViewController *mvvmCtr = [[MVVMViewController alloc] init];
         jumpVc = mvvmCtr;
+    } else if (indexPath.row == 4) {
+        MABridgeModeController *bridgeCtr = [[MABridgeModeController alloc] init];
+        jumpVc = bridgeCtr;
+    } else if (indexPath.row == 5) {
+        MASimpleFactoryController *simpleFac = [[MASimpleFactoryController alloc] init];
+        jumpVc = simpleFac;
+    } else if (indexPath.row == 6) {
+        MAFactoryController *factoryCtr = [[MAFactoryController alloc] init];
+        jumpVc = factoryCtr;
+    } else if (indexPath.row == 7) {
+        MAAbstractFactoryController *absFac = [[MAAbstractFactoryController alloc] init];
+        jumpVc = absFac;
+    } else if (indexPath.row == 8) {
+        MAFlyWeightController *flyCtr = [[MAFlyWeightController alloc] init];
+        jumpVc = flyCtr;
     }
     [self.navigationController pushViewController:jumpVc animated:YES];
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
-    return 5;
+    return 10;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
