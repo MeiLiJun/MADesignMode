@@ -17,6 +17,8 @@
 #import "MAFactoryController.h"
 #import "MAAbstractFactoryController.h"
 #import "MAFlyWeightController.h"
+#import "MAAdapterModeController.h"
+#import "MAObserverModeController.h"
 
 @interface ViewController ()<UITableViewDelegate, UITableViewDataSource>
 
@@ -32,7 +34,7 @@
     // Do any additional setup after loading the view, typically from a nib.
     
     [self.view addSubview:self.tableView];
-    self.titleArr = @[@"策略模式",@"MVC",@"MVP",@"MVVM",@"桥接模式", @"简单工厂", @"工厂方法",@"抽象工厂", @"享元模式", @"待定"];
+    self.titleArr = @[@"策略模式",@"MVC",@"MVP",@"MVVM",@"桥接模式", @"简单工厂", @"工厂方法",@"抽象工厂", @"享元模式",@"适配器模式", @"观察者模式", @"待定"];
 }
 
 #pragma mark - TableView Delegate
@@ -65,12 +67,18 @@
     } else if (indexPath.row == 8) {
         MAFlyWeightController *flyCtr = [[MAFlyWeightController alloc] init];
         jumpVc = flyCtr;
+    } else if (indexPath.row == 9){
+        MAAdapterModeController *adapCtr = [[MAAdapterModeController alloc] init];
+        jumpVc = adapCtr;
+    } else if (indexPath.row == 10){
+        MAObserverModeController *observer = [[MAObserverModeController alloc] init];
+        jumpVc = observer;
     }
     [self.navigationController pushViewController:jumpVc animated:YES];
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
-    return 10;
+    return 12;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{

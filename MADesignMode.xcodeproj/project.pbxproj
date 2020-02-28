@@ -44,6 +44,16 @@
 		D6201A7723FE640800C7E340 /* MAFlyWeightController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6201A7623FE640800C7E340 /* MAFlyWeightController.m */; };
 		D6201A7A23FE663600C7E340 /* MAFlowers.m in Sources */ = {isa = PBXBuildFile; fileRef = D6201A7923FE663600C7E340 /* MAFlowers.m */; };
 		D6201A7D23FE664F00C7E340 /* MAFlowerFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = D6201A7C23FE664F00C7E340 /* MAFlowerFactory.m */; };
+		D6201A842408E0D400C7E340 /* MAAdapterModeController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6201A832408E0D400C7E340 /* MAAdapterModeController.m */; };
+		D6201A872408E0E700C7E340 /* MAObserverModeController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6201A862408E0E700C7E340 /* MAObserverModeController.m */; };
+		D6201A8A2408E1E600C7E340 /* ColorView.m in Sources */ = {isa = PBXBuildFile; fileRef = D6201A892408E1E600C7E340 /* ColorView.m */; };
+		D6201A8D2408E22000C7E340 /* ColorModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D6201A8C2408E22000C7E340 /* ColorModel.m */; };
+		D6201A902408E22C00C7E340 /* ColorNewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D6201A8F2408E22C00C7E340 /* ColorNewModel.m */; };
+		D6201A932408E8AA00C7E340 /* MAColorViewAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = D6201A922408E8AA00C7E340 /* MAColorViewAdapter.m */; };
+		D6201A9A2408F74600C7E340 /* MANewModelAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = D6201A992408F74600C7E340 /* MANewModelAdapter.m */; };
+		D6201A9F2408FB2D00C7E340 /* MABaseTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = D6201A9E2408FB2D00C7E340 /* MABaseTableView.m */; };
+		D6201AA32408FCE900C7E340 /* SubTableViewOne.m in Sources */ = {isa = PBXBuildFile; fileRef = D6201AA22408FCE900C7E340 /* SubTableViewOne.m */; };
+		D6201AA62408FF9000C7E340 /* MASubCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = D6201AA52408FF9000C7E340 /* MASubCenter.m */; };
 		D643AB2D23F93A2B00799FFC /* MVCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D643AB2C23F93A2B00799FFC /* MVCViewController.m */; };
 		D643AB3023F93A3900799FFC /* MVPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D643AB2F23F93A3900799FFC /* MVPViewController.m */; };
 		D643AB3323F93A4600799FFC /* MVVMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D643AB3223F93A4600799FFC /* MVVMViewController.m */; };
@@ -143,6 +153,29 @@
 		D6201A7923FE663600C7E340 /* MAFlowers.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MAFlowers.m; sourceTree = "<group>"; };
 		D6201A7B23FE664F00C7E340 /* MAFlowerFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAFlowerFactory.h; sourceTree = "<group>"; };
 		D6201A7C23FE664F00C7E340 /* MAFlowerFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MAFlowerFactory.m; sourceTree = "<group>"; };
+		D6201A822408E0D400C7E340 /* MAAdapterModeController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAAdapterModeController.h; sourceTree = "<group>"; };
+		D6201A832408E0D400C7E340 /* MAAdapterModeController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MAAdapterModeController.m; sourceTree = "<group>"; };
+		D6201A852408E0E700C7E340 /* MAObserverModeController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAObserverModeController.h; sourceTree = "<group>"; };
+		D6201A862408E0E700C7E340 /* MAObserverModeController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MAObserverModeController.m; sourceTree = "<group>"; };
+		D6201A882408E1E600C7E340 /* ColorView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ColorView.h; sourceTree = "<group>"; };
+		D6201A892408E1E600C7E340 /* ColorView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ColorView.m; sourceTree = "<group>"; };
+		D6201A8B2408E22000C7E340 /* ColorModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ColorModel.h; sourceTree = "<group>"; };
+		D6201A8C2408E22000C7E340 /* ColorModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ColorModel.m; sourceTree = "<group>"; };
+		D6201A8E2408E22C00C7E340 /* ColorNewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ColorNewModel.h; sourceTree = "<group>"; };
+		D6201A8F2408E22C00C7E340 /* ColorNewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ColorNewModel.m; sourceTree = "<group>"; };
+		D6201A912408E8AA00C7E340 /* MAColorViewAdapter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAColorViewAdapter.h; sourceTree = "<group>"; };
+		D6201A922408E8AA00C7E340 /* MAColorViewAdapter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MAColorViewAdapter.m; sourceTree = "<group>"; };
+		D6201A972408F5CA00C7E340 /* TargetProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TargetProtocol.h; sourceTree = "<group>"; };
+		D6201A982408F74600C7E340 /* MANewModelAdapter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MANewModelAdapter.h; sourceTree = "<group>"; };
+		D6201A992408F74600C7E340 /* MANewModelAdapter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MANewModelAdapter.m; sourceTree = "<group>"; };
+		D6201A9D2408FB2D00C7E340 /* MABaseTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MABaseTableView.h; sourceTree = "<group>"; };
+		D6201A9E2408FB2D00C7E340 /* MABaseTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MABaseTableView.m; sourceTree = "<group>"; };
+		D6201AA02408FB4C00C7E340 /* MABaseTableViewProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MABaseTableViewProtocol.h; sourceTree = "<group>"; };
+		D6201AA12408FCE900C7E340 /* SubTableViewOne.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SubTableViewOne.h; sourceTree = "<group>"; };
+		D6201AA22408FCE900C7E340 /* SubTableViewOne.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SubTableViewOne.m; sourceTree = "<group>"; };
+		D6201AA42408FF9000C7E340 /* MASubCenter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MASubCenter.h; sourceTree = "<group>"; };
+		D6201AA52408FF9000C7E340 /* MASubCenter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MASubCenter.m; sourceTree = "<group>"; };
+		D6201AA72409015800C7E340 /* SubProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SubProtocol.h; sourceTree = "<group>"; };
 		D643AB2B23F93A2B00799FFC /* MVCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MVCViewController.h; sourceTree = "<group>"; };
 		D643AB2C23F93A2B00799FFC /* MVCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MVCViewController.m; sourceTree = "<group>"; };
 		D643AB2E23F93A3900799FFC /* MVPViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MVPViewController.h; sourceTree = "<group>"; };
@@ -380,6 +413,75 @@
 			path = "FlyWeightMode(享元模式)";
 			sourceTree = "<group>";
 		};
+		D6201A7E2408DFA800C7E340 /* AdapterMode(适配器模式) */ = {
+			isa = PBXGroup;
+			children = (
+				D6201A9C2408FA9400C7E340 /* Demo(TableView) */,
+				D6201A9B2408FA6E00C7E340 /* Demo1 */,
+				D6201A822408E0D400C7E340 /* MAAdapterModeController.h */,
+				D6201A832408E0D400C7E340 /* MAAdapterModeController.m */,
+			);
+			path = "AdapterMode(适配器模式)";
+			sourceTree = "<group>";
+		};
+		D6201A7F2408DFD100C7E340 /* ObserverMode(观察者模式) */ = {
+			isa = PBXGroup;
+			children = (
+				D6201A852408E0E700C7E340 /* MAObserverModeController.h */,
+				D6201A862408E0E700C7E340 /* MAObserverModeController.m */,
+				D6201AA42408FF9000C7E340 /* MASubCenter.h */,
+				D6201AA52408FF9000C7E340 /* MASubCenter.m */,
+				D6201AA72409015800C7E340 /* SubProtocol.h */,
+			);
+			path = "ObserverMode(观察者模式)";
+			sourceTree = "<group>";
+		};
+		D6201A802408E06C00C7E340 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				D6201A882408E1E600C7E340 /* ColorView.h */,
+				D6201A892408E1E600C7E340 /* ColorView.m */,
+				D6201A8B2408E22000C7E340 /* ColorModel.h */,
+				D6201A8C2408E22000C7E340 /* ColorModel.m */,
+				D6201A8E2408E22C00C7E340 /* ColorNewModel.h */,
+				D6201A8F2408E22C00C7E340 /* ColorNewModel.m */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		D6201A812408E0A800C7E340 /* Adapter */ = {
+			isa = PBXGroup;
+			children = (
+				D6201A972408F5CA00C7E340 /* TargetProtocol.h */,
+				D6201A912408E8AA00C7E340 /* MAColorViewAdapter.h */,
+				D6201A922408E8AA00C7E340 /* MAColorViewAdapter.m */,
+				D6201A982408F74600C7E340 /* MANewModelAdapter.h */,
+				D6201A992408F74600C7E340 /* MANewModelAdapter.m */,
+			);
+			path = Adapter;
+			sourceTree = "<group>";
+		};
+		D6201A9B2408FA6E00C7E340 /* Demo1 */ = {
+			isa = PBXGroup;
+			children = (
+				D6201A812408E0A800C7E340 /* Adapter */,
+				D6201A802408E06C00C7E340 /* Common */,
+			);
+			path = Demo1;
+			sourceTree = "<group>";
+		};
+		D6201A9C2408FA9400C7E340 /* Demo(TableView) */ = {
+			isa = PBXGroup;
+			children = (
+				D6201AA02408FB4C00C7E340 /* MABaseTableViewProtocol.h */,
+				D6201A9D2408FB2D00C7E340 /* MABaseTableView.h */,
+				D6201A9E2408FB2D00C7E340 /* MABaseTableView.m */,
+				D6201AA12408FCE900C7E340 /* SubTableViewOne.h */,
+				D6201AA22408FCE900C7E340 /* SubTableViewOne.m */,
+			);
+			path = "Demo(TableView)";
+			sourceTree = "<group>";
+		};
 		D643AB2823F939BB00799FFC /* MVC */ = {
 			isa = PBXGroup;
 			children = (
@@ -444,6 +546,8 @@
 		D6F149F023EAA38700C1A967 /* MADesignMode */ = {
 			isa = PBXGroup;
 			children = (
+				D6201A7F2408DFD100C7E340 /* ObserverMode(观察者模式) */,
+				D6201A7E2408DFA800C7E340 /* AdapterMode(适配器模式) */,
 				D6201A7423FE63DE00C7E340 /* FlyWeightMode(享元模式) */,
 				D6201A0C23FD21B000C7E340 /* FactoryMode(工厂模式) */,
 				D6201A0823FD20F800C7E340 /* BridgeMode(桥接模式) */,
@@ -580,6 +684,7 @@
 				D643AB4823F93AD300799FFC /* MVPPresenter.m in Sources */,
 				D643AB3023F93A3900799FFC /* MVPViewController.m in Sources */,
 				D6201A6A23FE605E00C7E340 /* BlueSubView.m in Sources */,
+				D6201AA62408FF9000C7E340 /* MASubCenter.m in Sources */,
 				D6201A2123FD27D200C7E340 /* MASubRemote.m in Sources */,
 				D6201A3323FE4F6800C7E340 /* MAOranges.m in Sources */,
 				D6201A3023FE4F5300C7E340 /* MAApples.m in Sources */,
@@ -591,6 +696,7 @@
 				D6F149F623EAA38700C1A967 /* ViewController.m in Sources */,
 				D6201A4A23FE599000C7E340 /* MAColorView.m in Sources */,
 				D643AB3323F93A4600799FFC /* MVVMViewController.m in Sources */,
+				D6201A842408E0D400C7E340 /* MAAdapterModeController.m in Sources */,
 				D643AB3923F93A5D00799FFC /* MVPView.m in Sources */,
 				D6201A1B23FD23FE00C7E340 /* AppleTV.m in Sources */,
 				D6201A2D23FE4F4400C7E340 /* MAFruits.m in Sources */,
@@ -598,6 +704,8 @@
 				D6201A1523FD23E200C7E340 /* XiaoMiTV.m in Sources */,
 				D64FC13F23F2850A0089E9B6 /* MATextFieldValidate.m in Sources */,
 				D6F14A0123EAA38900C1A967 /* main.m in Sources */,
+				D6201A932408E8AA00C7E340 /* MAColorViewAdapter.m in Sources */,
+				D6201AA32408FCE900C7E340 /* SubTableViewOne.m in Sources */,
 				D6201A2423FD27DF00C7E340 /* MATV.m in Sources */,
 				D6201A5F23FE5F8B00C7E340 /* MARedViewFactory.m in Sources */,
 				D643AB4223F93AA800799FFC /* MVPModel.m in Sources */,
@@ -606,8 +714,11 @@
 				D6201A6723FE605400C7E340 /* RedSubView.m in Sources */,
 				D6201A7D23FE664F00C7E340 /* MAFlowerFactory.m in Sources */,
 				D6201A5623FE5BC300C7E340 /* MARedViewGenerator.m in Sources */,
+				D6201A8D2408E22000C7E340 /* ColorModel.m in Sources */,
+				D6201A9A2408F74600C7E340 /* MANewModelAdapter.m in Sources */,
 				D643AB4523F93AB300799FFC /* MVVMModel.m in Sources */,
 				D6201A6D23FE607E00C7E340 /* RedButton.m in Sources */,
+				D6201A8A2408E1E600C7E340 /* ColorView.m in Sources */,
 				D6F149F323EAA38700C1A967 /* AppDelegate.m in Sources */,
 				D64FC14223F287890089E9B6 /* LetterTextFieldValidate.m in Sources */,
 				D6201A2723FE4C5100C7E340 /* MAXiaoMiTV.m in Sources */,
@@ -616,17 +727,20 @@
 				D6201A0B23FD21AA00C7E340 /* MABridgeModeController.m in Sources */,
 				D6201A7323FE620000C7E340 /* MAAbstractFactoryController.m in Sources */,
 				D64FC13923F27EC60089E9B6 /* MAStrategyModeController.m in Sources */,
+				D6201A9F2408FB2D00C7E340 /* MABaseTableView.m in Sources */,
 				D6201A7A23FE663600C7E340 /* MAFlowers.m in Sources */,
 				D6201A7723FE640800C7E340 /* MAFlyWeightController.m in Sources */,
 				D6201A5923FE5BD400C7E340 /* MABlueViewGenerator.m in Sources */,
 				D6201A5C23FE5F6600C7E340 /* MAColorViewFactory.m in Sources */,
 				D6201A3623FE4F7800C7E340 /* MABananas.m in Sources */,
 				D6201A1223FD23D300C7E340 /* XiaoMiRemote.m in Sources */,
+				D6201A902408E22C00C7E340 /* ColorNewModel.m in Sources */,
 				D6201A1E23FD27BE00C7E340 /* MARemote.m in Sources */,
 				D6201A7023FE608E00C7E340 /* BlueButton.m in Sources */,
 				D6201A1823FD23F200C7E340 /* AppleRemote.m in Sources */,
 				D643AB3F23F93A9600799FFC /* MVCModel.m in Sources */,
 				D6201A3923FE4F9E00C7E340 /* MAFruitsFactory.m in Sources */,
+				D6201A872408E0E700C7E340 /* MAObserverModeController.m in Sources */,
 				D643AB3C23F93A6600799FFC /* MVVMView.m in Sources */,
 				D6201A3C23FE4FB700C7E340 /* MASimpleFactoryController.m in Sources */,
 				D64FC13C23F284E50089E9B6 /* MACustomTextField.m in Sources */,
