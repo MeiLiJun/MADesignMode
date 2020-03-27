@@ -71,6 +71,9 @@
 		D6201AE224108F6B00C7E340 /* SubDrawBuilderOne.m in Sources */ = {isa = PBXBuildFile; fileRef = D6201AE124108F6B00C7E340 /* SubDrawBuilderOne.m */; };
 		D6201AE524108F7900C7E340 /* SubDrawBuilderTwo.m in Sources */ = {isa = PBXBuildFile; fileRef = D6201AE424108F7900C7E340 /* SubDrawBuilderTwo.m */; };
 		D6201AE82410917800C7E340 /* DrawDirector.m in Sources */ = {isa = PBXBuildFile; fileRef = D6201AE72410917800C7E340 /* DrawDirector.m */; };
+		D62F5DFB242E4B0800F3F120 /* BaseCopyObject.m in Sources */ = {isa = PBXBuildFile; fileRef = D62F5DFA242E4B0800F3F120 /* BaseCopyObject.m */; };
+		D62F5DFE242E4C0300F3F120 /* ClassModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D62F5DFD242E4C0300F3F120 /* ClassModel.m */; };
+		D62F5E01242E4C0E00F3F120 /* StudentModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D62F5E00242E4C0E00F3F120 /* StudentModel.m */; };
 		D637DC22242DF24900516DAB /* AttackBase.m in Sources */ = {isa = PBXBuildFile; fileRef = D637DC21242DF24900516DAB /* AttackBase.m */; };
 		D637DC25242DF29C00516DAB /* MagicAttack.m in Sources */ = {isa = PBXBuildFile; fileRef = D637DC24242DF29C00516DAB /* MagicAttack.m */; };
 		D637DC28242DF2DB00516DAB /* PhysicalAttack.m in Sources */ = {isa = PBXBuildFile; fileRef = D637DC27242DF2DB00516DAB /* PhysicalAttack.m */; };
@@ -261,6 +264,12 @@
 		D6201AE424108F7900C7E340 /* SubDrawBuilderTwo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SubDrawBuilderTwo.m; sourceTree = "<group>"; };
 		D6201AE62410917800C7E340 /* DrawDirector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DrawDirector.h; sourceTree = "<group>"; };
 		D6201AE72410917800C7E340 /* DrawDirector.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrawDirector.m; sourceTree = "<group>"; };
+		D62F5DF9242E4B0800F3F120 /* BaseCopyObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseCopyObject.h; sourceTree = "<group>"; };
+		D62F5DFA242E4B0800F3F120 /* BaseCopyObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseCopyObject.m; sourceTree = "<group>"; };
+		D62F5DFC242E4C0300F3F120 /* ClassModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ClassModel.h; sourceTree = "<group>"; };
+		D62F5DFD242E4C0300F3F120 /* ClassModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClassModel.m; sourceTree = "<group>"; };
+		D62F5DFF242E4C0E00F3F120 /* StudentModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StudentModel.h; sourceTree = "<group>"; };
+		D62F5E00242E4C0E00F3F120 /* StudentModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StudentModel.m; sourceTree = "<group>"; };
 		D637DC20242DF24900516DAB /* AttackBase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AttackBase.h; sourceTree = "<group>"; };
 		D637DC21242DF24900516DAB /* AttackBase.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AttackBase.m; sourceTree = "<group>"; };
 		D637DC23242DF29C00516DAB /* MagicAttack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MagicAttack.h; sourceTree = "<group>"; };
@@ -726,6 +735,19 @@
 			path = "中介者";
 			sourceTree = "<group>";
 		};
+		D62F5DF8242E4AA600F3F120 /* NSCopyingDemo */ = {
+			isa = PBXGroup;
+			children = (
+				D62F5DF9242E4B0800F3F120 /* BaseCopyObject.h */,
+				D62F5DFA242E4B0800F3F120 /* BaseCopyObject.m */,
+				D62F5DFC242E4C0300F3F120 /* ClassModel.h */,
+				D62F5DFD242E4C0300F3F120 /* ClassModel.m */,
+				D62F5DFF242E4C0E00F3F120 /* StudentModel.h */,
+				D62F5E00242E4C0E00F3F120 /* StudentModel.m */,
+			);
+			path = NSCopyingDemo;
+			sourceTree = "<group>";
+		};
 		D637DC1C242DF10C00516DAB /* ChainOfResponsibility(责任链) */ = {
 			isa = PBXGroup;
 			children = (
@@ -817,6 +839,7 @@
 				D637DCA6242E078100516DAB /* CommandReceiver.m */,
 				D637DCA8242E079900516DAB /* Invoker.h */,
 				D637DCA9242E079900516DAB /* Invoker.m */,
+				D62F5DF8242E4AA600F3F120 /* NSCopyingDemo */,
 			);
 			path = "CommandMode(命令模式)";
 			sourceTree = "<group>";
@@ -1094,8 +1117,10 @@
 				D643AB3323F93A4600799FFC /* MVVMViewController.m in Sources */,
 				D665608D2421E7FF0024EAEA /* MAFacadeModeController.m in Sources */,
 				D66560A0242215ED0024EAEA /* MACoachDriver.m in Sources */,
+				D62F5DFB242E4B0800F3F120 /* BaseCopyObject.m in Sources */,
 				D637DC3A242DF56D00516DAB /* ResponsibilityViewController.m in Sources */,
 				D6201A842408E0D400C7E340 /* MAAdapterModeController.m in Sources */,
+				D62F5E01242E4C0E00F3F120 /* StudentModel.m in Sources */,
 				D643AB3923F93A5D00799FFC /* MVPView.m in Sources */,
 				D665609D242215D60024EAEA /* MADrive.m in Sources */,
 				D6201A1B23FD23FE00C7E340 /* AppleTV.m in Sources */,
@@ -1165,6 +1190,7 @@
 				D6201AC1240F883500C7E340 /* MABuilderModeController.m in Sources */,
 				D6201AC5240F891B00C7E340 /* ConcreateBulid.m in Sources */,
 				D6201A3923FE4F9E00C7E340 /* MAFruitsFactory.m in Sources */,
+				D62F5DFE242E4C0300F3F120 /* ClassModel.m in Sources */,
 				D6201A872408E0E700C7E340 /* MAObserverModeController.m in Sources */,
 				D6201AD2240F92C600C7E340 /* MacComputer.m in Sources */,
 				D643AB3C23F93A6600799FFC /* MVVMView.m in Sources */,
