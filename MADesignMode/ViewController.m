@@ -19,6 +19,11 @@
 #import "MAFlyWeightController.h"
 #import "MAAdapterModeController.h"
 #import "MAObserverModeController.h"
+#import "MADelegateController.h"
+#import "MABuilderModeController.h"
+#import "MAFacadeModeController.h"
+#import "ResponsibilityViewController.h"
+#import "MACommandModeController.h"
 
 @interface ViewController ()<UITableViewDelegate, UITableViewDataSource>
 
@@ -34,51 +39,64 @@
     // Do any additional setup after loading the view, typically from a nib.
     
     [self.view addSubview:self.tableView];
-    self.titleArr = @[@"策略模式",@"MVC",@"MVP",@"MVVM",@"桥接模式", @"简单工厂", @"工厂方法",@"抽象工厂", @"享元模式",@"适配器模式", @"观察者模式", @"待定"];
+    self.titleArr = @[@"策略模式",@"MVC",@"MVP",@"MVVM",@"桥接模式", @"简单工厂", @"工厂方法",@"抽象工厂", @"享元模式",@"适配器模式", @"观察者模式", @"消息转发", @"构建者模式", @"外观模式", @"责任链模式", @"命令模式", @"待定"];
 }
 
 #pragma mark - TableView Delegate
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
-    UIViewController *jumpVc ;
     if (indexPath.row == 0) {
         MAStrategyModeController *strategyCtr = [[MAStrategyModeController alloc] init];
-        jumpVc = strategyCtr;
+        [self.navigationController pushViewController:strategyCtr animated:YES];
     } else if (indexPath.row == 1) {
         MVCViewController *mvcCtr = [[MVCViewController alloc] init];
-        jumpVc = mvcCtr;
+        [self.navigationController pushViewController:mvcCtr animated:YES];
     } else if (indexPath.row == 2) {
         MVPViewController *mvpCtr = [[MVPViewController alloc] init];
-        jumpVc = mvpCtr;
+        [self.navigationController pushViewController:mvpCtr animated:YES];
     } else if (indexPath.row == 3) {
         MVVMViewController *mvvmCtr = [[MVVMViewController alloc] init];
-        jumpVc = mvvmCtr;
+        [self.navigationController pushViewController:mvvmCtr animated:YES];
     } else if (indexPath.row == 4) {
         MABridgeModeController *bridgeCtr = [[MABridgeModeController alloc] init];
-        jumpVc = bridgeCtr;
+        [self.navigationController pushViewController:bridgeCtr animated:YES];
     } else if (indexPath.row == 5) {
         MASimpleFactoryController *simpleFac = [[MASimpleFactoryController alloc] init];
-        jumpVc = simpleFac;
+        [self.navigationController pushViewController:simpleFac animated:YES];
     } else if (indexPath.row == 6) {
         MAFactoryController *factoryCtr = [[MAFactoryController alloc] init];
-        jumpVc = factoryCtr;
+        [self.navigationController pushViewController:factoryCtr animated:YES];
     } else if (indexPath.row == 7) {
         MAAbstractFactoryController *absFac = [[MAAbstractFactoryController alloc] init];
-        jumpVc = absFac;
+        [self.navigationController pushViewController:absFac animated:YES];
     } else if (indexPath.row == 8) {
         MAFlyWeightController *flyCtr = [[MAFlyWeightController alloc] init];
-        jumpVc = flyCtr;
+        [self.navigationController pushViewController:flyCtr animated:YES];
     } else if (indexPath.row == 9){
         MAAdapterModeController *adapCtr = [[MAAdapterModeController alloc] init];
-        jumpVc = adapCtr;
+        [self.navigationController pushViewController:adapCtr animated:YES];
     } else if (indexPath.row == 10){
         MAObserverModeController *observer = [[MAObserverModeController alloc] init];
-        jumpVc = observer;
+        [self.navigationController pushViewController:observer animated:YES];
+    } else if (indexPath.row == 11){
+        MADelegateController *deleCtr = [[MADelegateController alloc] init];
+        [self.navigationController pushViewController:deleCtr animated:YES];
+    } else if (indexPath.row == 12) {
+        MABuilderModeController *buildCtr = [[MABuilderModeController alloc] init];
+        [self.navigationController pushViewController:buildCtr animated:YES];
+    } else if (indexPath.row == 13) {
+        MAFacadeModeController *facade = [[MAFacadeModeController alloc] init];
+        [self.navigationController pushViewController:facade animated:YES];
+    } else if (indexPath.row == 14) {
+        ResponsibilityViewController *respon = [[ResponsibilityViewController alloc] init];
+        [self.navigationController pushViewController:respon animated:YES];
+    } else if (indexPath.row == 15) {
+        MACommandModeController *command = [[MACommandModeController alloc] init];
+        [self.navigationController pushViewController:command animated:YES];
     }
-    [self.navigationController pushViewController:jumpVc animated:YES];
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
-    return 12;
+    return 16;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{

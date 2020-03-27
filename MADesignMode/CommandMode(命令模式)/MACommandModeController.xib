@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MACommandModeController">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" tag="100" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uWh-gt-9RK">
+                    <rect key="frame" x="10" y="145" width="111.5" height="30"/>
+                    <state key="normal" title="降低亮度"/>
+                    <connections>
+                        <action selector="btnActon:" destination="-1" eventType="touchUpInside" id="gIu-YO-s68"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="101" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vOe-ls-E0U">
+                    <rect key="frame" x="131.5" y="140" width="112" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="xTH-nb-ZS6"/>
+                    </constraints>
+                    <state key="normal" title="增加亮度"/>
+                    <connections>
+                        <action selector="btnActon:" destination="-1" eventType="touchUpInside" id="51n-5R-JbL"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="102" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cPP-Ab-UZx">
+                    <rect key="frame" x="253.5" y="145" width="111.5" height="30"/>
+                    <state key="normal" title="回退一步"/>
+                    <connections>
+                        <action selector="btnActon:" destination="-1" eventType="touchUpInside" id="t2p-Tf-gD1"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="uWh-gt-9RK" firstAttribute="centerY" secondItem="vOe-ls-E0U" secondAttribute="centerY" id="BGd-Rz-Whw"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="cPP-Ab-UZx" secondAttribute="trailing" constant="10" id="MgT-lx-lW3"/>
+                <constraint firstItem="vOe-ls-E0U" firstAttribute="leading" secondItem="uWh-gt-9RK" secondAttribute="trailing" constant="10" id="OQ3-Ha-ZG6"/>
+                <constraint firstItem="vOe-ls-E0U" firstAttribute="top" secondItem="Q5M-cg-NOt" secondAttribute="top" constant="120" id="T0c-ZA-ueh"/>
+                <constraint firstItem="cPP-Ab-UZx" firstAttribute="centerY" secondItem="vOe-ls-E0U" secondAttribute="centerY" id="b6v-DK-hap"/>
+                <constraint firstItem="vOe-ls-E0U" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="kKA-6b-7UE"/>
+                <constraint firstItem="cPP-Ab-UZx" firstAttribute="width" secondItem="vOe-ls-E0U" secondAttribute="width" id="qwN-QT-ioA"/>
+                <constraint firstItem="uWh-gt-9RK" firstAttribute="width" secondItem="vOe-ls-E0U" secondAttribute="width" id="tOa-w5-9DK"/>
+                <constraint firstItem="cPP-Ab-UZx" firstAttribute="leading" secondItem="vOe-ls-E0U" secondAttribute="trailing" constant="10" id="zTf-fe-Okr"/>
+                <constraint firstItem="uWh-gt-9RK" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" constant="10" id="zzJ-MI-A5Z"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="Q5M-cg-NOt"/>
+        </view>
+    </objects>
+</document>
